@@ -1,0 +1,35 @@
+    
+<!DOCTYPE html>
+	<!--현재 HTML 문서에 타임리프 문법을 사용한다고 선언-->
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="UTF-8">
+	<title>페이지 오류</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+		img{
+			height: 90vh;
+			display: block;
+			margin: auto;
+		}	
+		
+		.btn-area{
+			text-align: center;
+			
+		}
+		
+		
+	</style>
+    
+</head>
+<body>
+	<img src="/images/error/404.png">
+	
+	<div class="btn-area">
+		<button onclick="location.href='/'">메인 페이지</button>
+		<button onclick="history.back()">이전 페이지</button>
+		
+	</div>
+</body>
+</html>
