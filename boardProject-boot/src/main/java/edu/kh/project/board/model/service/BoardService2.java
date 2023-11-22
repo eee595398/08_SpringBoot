@@ -29,7 +29,7 @@ public interface BoardService2 {
 	 * @param deleteList
 	 * @return
 	 */
-	int boardUpdate(Board board, List<MultipartFile> images, String webPath, String filePath, String deleteList)
+	int boardUpdate(Board board, List<MultipartFile> images, String deleteList)
 			throws IllegalStateException, IOException;
 
 	
